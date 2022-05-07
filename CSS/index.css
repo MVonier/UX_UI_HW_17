@@ -1,9 +1,22 @@
+header {
+	display: flex;
+	justify-content: space-between;
+    align-items: center;
+	height: 18%;
+	box-shadow: 0 5px 15px rgba(0,0,0,.2);	
+}
+
+.logo img {
+   margin-left: 2.3em;
+   max-width: 100%;
+   height: auto !important;
+}
+
 nav {
-    height: 50px;
+    height: 70px;
     background-color: lightgrey;
   }
   .inline-block {
     padding: 15px;
     display: inline-block;
-  }
-  
+  }  
